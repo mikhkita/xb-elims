@@ -239,7 +239,11 @@
 				<div class="b-input">
 					<input type="text" id="phone" name="phone" placeholder="Ваш телефон" required/>
 				</div>
-				<div class="clearfix">
+				<div class="b-input b-textarea">
+					<textarea id="comment" name="comment" placeholder="Ваш комментарий"></textarea>
+				</div>
+
+				<!-- <div class="clearfix">
 					<div class="b-input b-input-half">
 						<input type="text" id="date" name="date" placeholder="Дата" required/>
 						<div class="hidden-datepicker"></div>
@@ -299,7 +303,8 @@
 							</ul>
 						</div>
 					</div>
-				</div>
+				</div> -->
+
 				<div class="b-checkbox">
 					<input id="checkbox-politics" type="checkbox" name="politics" checked required>
 					<label for="checkbox-politics">
@@ -346,6 +351,7 @@
 	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/html/js/slideout.min.js"></script>
 	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/html/js/jquery.enllax.min.js"></script>
 	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/html/js/mask.js"></script>
+	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/html/js/jquery.autosize.input.min.js"></script>
 	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/html/js/main.js"></script>
 	<? if( isset( $GLOBALS["depends"][$GLOBALS["page"]] ) ): ?>
 		<? foreach ($GLOBALS["depends"][$GLOBALS["page"]]["js_last"] as $scriptName): ?>
