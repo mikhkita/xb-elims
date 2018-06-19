@@ -232,7 +232,7 @@
 		<a href="#b-popup-error" class="b-error-link fancy" style="display:none;"></a>
 		<div class="b-popup b-popup-register" id="b-popup-register">
 			<h2>Запись на прием</h2>
-			<form id="b-form-register" class="b-form-register" action="kitsend.php" method="post" data-goal="REQUEST">
+			<form id="b-form-register" class="b-form-register" action="kitsend.php" method="post">
 				<div class="b-input">
 					<input type="text" id="name" name="name" placeholder="Ваше имя" required/>
 				</div>
